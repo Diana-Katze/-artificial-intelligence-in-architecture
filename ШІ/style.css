@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f3e8; /* світлий фон, що нагадує молоко */
+    color: #503b2f; /* темний коричневий, як кава */
+}
+
+
+/* Темна тема */
+body.dark-mode {
+    background-color: #342020;
+    color: #4b3131;
+}
+
+header.dark-mode {
+    background-color: #422b2b;
+    color: rgb(194, 139, 139);
+}
+
+footer.dark-mode {
+    background-color: #422b2b;
+    color:  rgb(125, 85, 85);
+}
+
+aside.dark-mode {
+    background-color: #795353;
+}
+button.dark-mode {
+    background-color: #1f0e0e; 
+    color: rgb(186, 124, 124);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+  button:hover.dark-mode {     
+    background-color: #0f0c09;
+    }
+
+
+.info.dark-mode {
+    background-color: #c1a0a0;
+}
+
+
+
+
+
+
+
+header {
+    background-color: #6f4c3e; /* колір кави */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gagalin';
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'TeXGyreCursor-Regular';
+}
+
+button {
+    background-color: #d1a56e; /* колір молока з кавою */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #c88a56; /* трохи темніший колір при наведенні */
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+aside {
+    width: 200px;
+    background-color: #e8d7c5; /* світліший відтінок кави */
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+section {
+    flex-grow: 1;
+    background-color: #ffffff; /* білий фон для контенту */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* тінь для глибини */
+}
+
+footer {
+    background-color: #6f4c3e; /* колір кави */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'TeXGyreCursor-Regular';
+}
+
+footer a {
+    color: #d1a56e; /* колір молока */
+    text-decoration: none;
+
+    
+}
+
+a {  color: #3e2723;
+    font-family: 'Arial', sans-serif;
+}
+.text { color: #3e2723;
+    font-family: 'TeXGyreCursor-Regular';
+
+}
+
+.title {font-family: 'TeXGyreCursor-Regular';
+    color: #3e2723; /* темний коричневий, як кава */
+}
+
+
+
+.tex {font-family:  'Nautilus Pompilius';
+    color: #3e2723;
+}
+
+.hea {font-family: 'BoomBoom';
+}
+
+.te {font-family: 'Fira Sans Heavy';
+    color: #3e2723;    
+
+}
+
+
